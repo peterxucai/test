@@ -3,3 +3,6 @@ def index(request):
 
 def goods(request):
     return render(request,'goods.html')
+
+def order(request):
+    return render(request,'order.html')
