@@ -6,3 +6,7 @@ def goods(request):
 
 def order(request):
     return render(request,'order.html')
+
+def cart(request):
+    return render(request,'cart.html')
+
